@@ -6,7 +6,6 @@ import Footer from "./footer/page"
 import FourthSection from "./fourthsection/page"
 import ThirdSection from "./thirdsection/page"
 import SecondSection from "./secondsection/page"
-import Pricing from "./pricing/page"
 
 
 const Home = () => {
@@ -19,7 +18,6 @@ const Home = () => {
       <ThirdSection/>
       <FourthSection/>
       <FifthSection />
-      <Pricing/>
       <Footer/>
     </>
   )

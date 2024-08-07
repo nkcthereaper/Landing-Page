@@ -3,6 +3,7 @@ import Logo from "./logo";
 import { NavigationBar } from "./navigation-bar";
 import ActionButtons from "./action-buttons";
 import { ModeToggle } from "@/components/darkmode-toggler";
+import { ContactUs } from "@/components/ContactUs";
 export default function Navbar() {
   return (
     <header className="flex items-center justify-between px-10 border-b fixed w-full bg-white dark:bg-black z-50">
@@ -12,6 +13,7 @@ export default function Navbar() {
         <ModeToggle />
         <ActionButtons />
       </div>
+      <ContactUs />
     </header>
   );
 }

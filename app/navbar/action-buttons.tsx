@@ -24,8 +24,7 @@ const ActionButtons = () => {
             <SheetHeader>
               <SheetDescription>
                 <div className="flex flex-col items-start space-y-4 text-lg text-black dark:text-white mt-10 w-full ">
-                  <Link href="/">Sign in</Link>
-                  <Link href="/">Get Started</Link>
+            
                   <Link href="/">Pricing</Link>
                   <Link href="/">Contact</Link>
                   <Link href="/">About</Link>
@@ -35,12 +34,7 @@ const ActionButtons = () => {
           </SheetContent>
         </Sheet>
       </div>
-      <div className="hidden md:flex md:space-x-4 ">
-        <Button aria-label="login button" variant="ghost" className="text-md">
-          Sign in
-        </Button>
-        <Button aria-label="get started button" className="text-md bg-blue-500">Get Started</Button>
-      </div>
+   
     </div>
   );
 };
